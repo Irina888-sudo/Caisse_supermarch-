@@ -1,6 +1,6 @@
 -- Création de la base de données
-CREATE DATABASE IF NOT EXISTS 4016-4110-checkout;
-USE 4016-4110-checkout;
+CREATE DATABASE IF NOT EXISTS 4016_4110_checkout;
+USE 4016_4110_checkout;
 
 -- Table Produit
 CREATE TABLE Produit (
