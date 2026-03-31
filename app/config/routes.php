@@ -16,6 +16,12 @@ $router->group('', function(Router $router) use ($authController, $app) {
         $app->render('model.php', ['page' => 'home.php']);
     });
 
+    $router->get('/list-checkout', function() use ($app) {
+        $app->render('model.php', ['page' => 'list-checkout.php']);
+    });
+
+
+
 
 
 }, [SecurityHeadersMiddleware::class]);
