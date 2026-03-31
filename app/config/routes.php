@@ -16,14 +16,14 @@ $router->group('', function(Router $router) use ($authController, $app) {
         $app->render('auth/model.php', ['page' => 'home.php']);
     });
 
-    $router->get('/login', function() use ($app) {
-        $app->render('auth/model.php', ['page' => 'login.php']);
-    });
+    // $router->get('/login', function() use ($app) {
+    //     $app->render('auth/model.php', ['page' => 'login.php']);
+    // });
 
-    $router->get('/register', [$authController, 'showRegister']);
+    // $router->get('/register', [$authController, 'showRegister']);
 
-    $router->post('/register', [$authController, 'postRegister']);
+    // $router->post('/register', [$authController, 'postRegister']);
 
-    $router->post('/api/validate/register', [$authController, 'validateRegisterAjax']);
+    // $router->post('/api/validate/register', [$authController, 'validateRegisterAjax']);
 
 }, [SecurityHeadersMiddleware::class]);
