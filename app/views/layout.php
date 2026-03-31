@@ -12,7 +12,7 @@
         <nav>
     <h1>E-Checkout</h1>
     <ul>
-      <li><a href="#">Change Checkout</a></li>
+      <li><a href="/list-checkout">Change Checkout</a></li>
     </ul>
   </nav>
     </header>
